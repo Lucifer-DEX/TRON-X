@@ -1,6 +1,6 @@
 {
-  "name": "THORN-X",
-  "description": "Advanced WhatsApp Bot from Sri Lanka 🇱🇰",
+  "name": "TRON-X",
+  "description": "Advanced WhatsApp Bot from Sri Lanka",
   "keywords": ["nodejs", "bot", "whatsapp bot", "tron-x", "multi device"],
   "success_url": "/",
   "stack": "container",
@@ -9,15 +9,7 @@
         "value": "",
         "required" : true
     },
-    "PREFIX": {
-        "value": ".",
-        "required" : true
-    },
-    "OWNER_NUMBER": {
-        "value": "",
-        "required" : true
-    },
-    "MONGODB_URI": {
+    "DATABASE_URI": {
         "value": "",
         "required" : true
     }
